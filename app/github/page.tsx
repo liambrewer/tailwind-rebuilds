@@ -350,6 +350,76 @@ export default function GitHub() {
           </a>
         </li>
       </ul>
+      <div className='container flex px-4 mx-auto my-8'>
+        <div className='w-3/4 mr-8 file-explorer-container'>
+          <div className='flex items-center justify-between branch-navigation'>
+            <div className='flex items-center space-x-2'>
+              <button className='flex items-center px-4 py-1 space-x-2 border border-gray-400 rounded-md hover:bg-gray-200'>
+                <svg
+                  aria-hidden='true'
+                  viewBox='0 0 16 16'
+                  className='w-4 text-gray-600 fill-current'
+                >
+                  <path d='M9.5 3.25a2.25 2.25 0 1 1 3 2.122V6A2.5 2.5 0 0 1 10 8.5H6a1 1 0 0 0-1 1v1.128a2.251 2.251 0 1 1-1.5 0V5.372a2.25 2.25 0 1 1 1.5 0v1.836A2.493 2.493 0 0 1 6 7h4a1 1 0 0 0 1-1v-.628A2.25 2.25 0 0 1 9.5 3.25Zm-6 0a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Zm8.25-.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5ZM4.25 12a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Z'></path>
+                </svg>
+                <span className='font-semibold'>master</span>
+                <svg
+                  xmlns='http://www.w3.org/2000/svg'
+                  fill='none'
+                  viewBox='0 0 24 24'
+                  strokeWidth={1.5}
+                  stroke='currentColor'
+                  className='w-3 ml-1'
+                >
+                  <path
+                    strokeLinecap='round'
+                    strokeLinejoin='round'
+                    d='M19.5 8.25l-7.5 7.5-7.5-7.5'
+                  />
+                </svg>
+              </button>
+              <a
+                href='#'
+                className='flex items-center px-3 py-1 space-x-2 group'
+              >
+                <svg
+                  aria-hidden='true'
+                  viewBox='0 0 16 16'
+                  className='w-4 text-gray-600 fill-current group-hover:text-blue-600'
+                >
+                  <path d='M9.5 3.25a2.25 2.25 0 1 1 3 2.122V6A2.5 2.5 0 0 1 10 8.5H6a1 1 0 0 0-1 1v1.128a2.251 2.251 0 1 1-1.5 0V5.372a2.25 2.25 0 1 1 1.5 0v1.836A2.493 2.493 0 0 1 6 7h4a1 1 0 0 0 1-1v-.628A2.25 2.25 0 0 1 9.5 3.25Zm-6 0a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Zm8.25-.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5ZM4.25 12a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Z'></path>
+                </svg>
+                <span className='group-hover:text-blue-600'>
+                  <span className='font-semibold'>25 </span>
+                  <span>branches</span>
+                </span>
+              </a>
+              <a
+                href='#'
+                className='flex items-center px-3 py-1 space-x-2 group'
+              >
+                <svg
+                  aria-hidden='true'
+                  viewBox='0 0 16 16'
+                  className='w-4 text-gray-600 fill-current group-hover:text-blue-600'
+                >
+                  <path d='M9.5 3.25a2.25 2.25 0 1 1 3 2.122V6A2.5 2.5 0 0 1 10 8.5H6a1 1 0 0 0-1 1v1.128a2.251 2.251 0 1 1-1.5 0V5.372a2.25 2.25 0 1 1 1.5 0v1.836A2.493 2.493 0 0 1 6 7h4a1 1 0 0 0 1-1v-.628A2.25 2.25 0 0 1 9.5 3.25Zm-6 0a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Zm8.25-.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5ZM4.25 12a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Z'></path>
+                </svg>
+                <span className='group-hover:text-blue-600'>
+                  <span className='font-semibold'>25 </span>
+                  <span>tags</span>
+                </span>
+              </a>
+            </div>
+            <div className='flex items-center space-x-2'>two</div>
+          </div>
+        </div>
+        <div className='w-1/4 sidebar'>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id ex atque
+          deserunt ipsum recusandae explicabo, laudantium saepe voluptate ipsa
+          quasi at tempora eius esse aut doloribus nemo possimus libero est.
+        </div>
+      </div>
     </div>
   );
 }
